@@ -1,7 +1,6 @@
 GIT
   remote: git@github.com:awesome-print/awesome_print.git
   revision: 4564fd74721562cbef2443f7d97109bf9192343d
-  submodules: true
   specs:
     awesome_print (1.8.0)
 
@@ -50,7 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  awesome_print (~> 1.8.0, >= 1.8.0)!
+  awesome_print!
   hashie
   octokit (~> 2.0)
   pry
